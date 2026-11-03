@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>舞语 · 舞语 DanceLingo</title>
+<style>
+  :root { color-scheme: light; }
+  body { margin: 0; background: #f6f1e7; color: #1c1a17; font: 16px/1.7 -apple-system, "PingFang SC", "Apple SD Gothic Neo", "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 24px 20px 64px; }
+  nav { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; margin-bottom: 8px; }
+  nav a { color: #1c1a17; }
+  .tabs { display: flex; gap: 8px; margin: 16px 0 8px; }
+  .tabs input { position: absolute; opacity: 0; }
+  .tabs label { padding: 6px 14px; border: 1.5px solid #1c1a17; border-radius: 999px; font-size: 14px; cursor: pointer; }
+  .tabs input:checked + label { background: #1c1a17; color: #f6f1e7; }
+  section { display: none; }
+  h1 { font-size: 28px; line-height: 1.25; margin: 24px 0 8px; }
+  h2 { font-size: 18px; margin: 28px 0 4px; }
+  p { margin: 6px 0; color: #3a362f; }
+  a { color: #b0275f; }
+  footer { margin-top: 48px; font-size: 13px; color: #6b655b; }
+  .tabs:has(#t-zh:checked) ~ #p-zh { display: block; }
+  .tabs:has(#t-en:checked) ~ #p-en { display: block; }
+  .tabs:has(#t-ko:checked) ~ #p-ko { display: block; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="index.html">舞语 · DanceLingo · 댄스링고</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+<div class="tabs"><input type="radio" name="lang" id="t-zh" checked><label for="t-zh">中文</label><input type="radio" name="lang" id="t-en" ><label for="t-en">English</label><input type="radio" name="lang" id="t-ko" ><label for="t-ko">한국어</label></div>
+<section id="p-zh" lang="zh-CN"><h1>舞语</h1><p>舞语帮助街舞舞者听懂外语老师的课：中文舞者上英语、韩语课，外国舞者上中文课。词汇、动作示意、发音和上课短句，一个 App 学完。</p>
+<p><a href="support.html">支持与常见问题</a> · <a href="privacy.html">隐私政策</a> · <a href="terms.html">使用条款与版权</a></p></section><section id="p-en" lang="en"><h1>DanceLingo</h1><p>DanceLingo helps street dancers follow a class taught in another language: Chinese dancers in English- or Korean-taught classes, foreign dancers in Chinese-taught ones. Words, moves, pronunciation and class phrases in one app.</p>
+<p><a href="support.html">Support &amp; FAQ</a> · <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms &amp; copyright</a></p></section><section id="p-ko" lang="ko"><h1>댄스링고</h1><p>댄스링고는 다른 언어로 진행되는 수업을 따라갈 수 있게 도와주는 스트릿 댄스 언어 앱이에요. 단어, 동작, 발음, 수업 표현을 한 앱에서 배워요.</p>
+<p><a href="support.html">지원 및 자주 묻는 질문</a> · <a href="privacy.html">개인정보 처리방침</a> · <a href="terms.html">이용약관 및 저작권</a></p></section>
+<footer>舞语 · DanceLingo · 댄스링고 — <a href="mailto:yuhuajiang8@gmail.com">yuhuajiang8@gmail.com</a></footer>
+</main>
+</body>
+</html>
